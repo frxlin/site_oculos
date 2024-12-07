@@ -1,0 +1,274 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+.navbar-custom {
+  background: #180ab4 !important;
+  
+}
+
+/* Ajustes para a responsividade */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    /* Coloque os itens da navbar em coluna em telas menores */
+  }
+}
+.img1 {
+
+
+  height: 700px;
+  max-height: 500px;
+ 
+}
+
+
+.cantinho
+{
+right: 0;
+position: absolute;
+margin-right: 20px;
+
+}
+
+.cantinhosearch
+{
+margin-left: 20em;
+
+}
+  
+.position {
+  position: absolute;
+  right: 0;
+  margin-right: 2em;
+
+}
+
+.position-cart {
+  position: absolute;
+  right: 0;
+  margin-right: 9em;
+
+
+}
+
+.position-input {
+
+  position: absolute;
+  right: 0;
+  margin-right: 14em;
+
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  .navbar-custom {
+    background-color: #f8f9fa; 
+  }
+  .nav-item {
+    text-align: center;
+  }
+}
+
+/* redes sociais */
+
+.social-login-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+
+}
+
+
+
+
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.center {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.position {
+  position: absolute;
+  right: 0;
+  margin-right: 2em;
+
+}
+
+.position-cart {
+  position: absolute;
+  right: 0;
+  margin-right: 9em;
+
+
+}
+
+.position-input {
+
+  position: absolute;
+  right: 0;
+  margin-right: 14em;
+
+}
+
+
+
+
+
+
+.logo {
+  width: 70px;
+  height: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .descricao-oculos {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .descricao-oculos {
+    font-size: 16px;
+  }
+}
+
+/* Para telas grandes */
+@media (min-width: 992px) {
+  .descricao-oculos {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+.descricao-oculos {
+  
+font-size:  20px;
+padding-bottom: 300px;
+max-width: 400px;
+margin-left: 100px;
+padding-top: 100px;
+}
+
+
+.lado-lado {
+  
+  margin-left: 150px;
+  transform: translateY(-240%);
+  display: flex;
+
+
+}
+
+/* aqui é para o botoes de comprar e colocar no carrinho */
+button {
+  border: none;
+  background-color: seagreen;
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 200;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transform: translate(1) translate(0, 0);
+  transition: transform 225ms, box-shadow 225ms;
+}
+
+/* quando  passar o mouse por cima do botao eles se mexerem */
+button:hover {
+  transform: scale(1.05) translate(0, -0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+button:active {
+  transform: scale(1) translate(0, 0.15rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+
+/* distancia entre eles */
+.margin-bottom {
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 60%;
+  margin-top: 20px;
+}
+
+/* lado a lado */
+.flex-botao {
+  display: flex;
+  padding-left: 90px;
+
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  
+}
+
+.sem-sublinhado {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+

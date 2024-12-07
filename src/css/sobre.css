@@ -1,0 +1,244 @@
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1em auto;
+    max-width: 30em;
+    padding: 2em;
+}
+
+.lado-lado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img1 {
+    width: 100%;
+    max-height: 400px;
+    margin: 1em auto;
+    display: block;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.position {
+    position: absolute;
+    right: 0;
+    margin-right: 2em;
+}
+
+.position-cart {
+    position: absolute;
+    right: 0;
+    margin-right: 9em;
+}
+
+.active-section {
+    font-weight: bold;
+    color: #046a2b; 
+  }
+  
+
+.position-input {
+    position: absolute;
+    right: 0;
+    margin-right: 14em;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-custom {
+    background: #1b81a2;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .position-cart,
+    .position-input {
+        position: static;
+        margin: 0;
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lado-lado {
+        flex-direction: column;
+    }
+    .img1 {
+        max-width: 100%;
+        height: auto;
+    }
+    h5 {
+        font-size: 1em;
+        padding: 1em;
+    }
+}
+
+html, body {
+    background-image: url('../imagens/login.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+  
+ 
+.cards {
+    perspective: 500px;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    
+}
+
+
+.navbar-custom {
+    background: #180ab4;
+    
+  }
+.color-text{
+    color: #f0e7e7;
+    
+}
+.cantinho
+{
+right: 0;
+position: absolute;
+margin-right: 20px;
+
+}
+  
+.cantinhosearch{
+margin-left: 20em;
+
+}
+.card {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    background: #134ba4;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform 0.5s;
+    padding: 1em;
+    margin: 1em;
+}
+
+.card:hover {
+    transform: translateZ(10px) rotateX(5deg) rotateY(5deg);
+}
+
+
+
+.card:hover .card_title {
+    transform: translateZ(20px);
+}
+
+/* redes sociais */
+
+.social-login-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+  
+  }
+  
+  .social-login-icons svg {
+    width: 40px;
+  }
+  
+  .social-icon-1,
+  .social-icon-2,
+  .social-icon-3,
+  .social-icon-4 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .socialcontainer {
+    height: 50px;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .social-icon-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .socialcontainer:hover .social-icon-1 {
+    transform: translateY(-50px);
+  }
+  
+  .social-icon-2 {
+    transition-duration: 0.4s;
+    background: linear-gradient(72.44deg,
+        #ff7a00 11.92%,
+        #ff0169 51.56%,
+        #d300c5 85.69%);
+  }
+  
+  .socialcontainer:hover .social-icon-2 {
+    transform: translateY(-50px);
+  }
+  
+  .social-icon-3 {
+    transition-duration: 0.4s;
+    background: #316ff6;
+  }
+  
+  .socialcontainer:hover .social-icon-3 {
+    transform: translateY(-50px);
+  }
+  
+  .social-icon-4 {
+    transition-duration: 0.4s;
+    background: linear-gradient(180deg,
+        rgba(129, 34, 144, 1) 0%,
+        rgba(77, 34, 124, 1) 91%);
+  }
+  
+  .socialcontainer:hover .social-icon-4 {
+    transform: translateY(-50px);
+  }
+  

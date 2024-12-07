@@ -1,0 +1,227 @@
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  background-color: rgb(15, 129, 196);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+
+.form .title {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: center;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(8, 130, 40);
+  color: #fff;
+  cursor: pointer;
+}
+.center {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+  
+
+
+.navbar-custom {
+  background: #180ab4;
+  
+}
+
+/* Ajustes para a responsividade */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    /* Coloque os itens da navbar em coluna em telas menores */
+  }
+}
+.img {
+  width: 450px;
+  min-height: 350px;
+}
+
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.logoC {
+  margin-top: 5px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.cantinho
+{
+right: 0;
+position: absolute;
+margin-right: 20px;
+
+}
+
+.cantinhosearch
+{
+margin-left: 20em;
+
+}
+  
+.position {
+  position: absolute;
+  right: 0;
+  margin-right: 2em;
+
+}
+
+.position-cart {
+  position: absolute;
+  right: 0;
+  margin-right: 9em;
+
+
+}
+
+.position-input {
+
+  position: absolute;
+  right: 0;
+  margin-right: 14em;
+
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  .navbar-custom {
+    background-color: #f8f9fa; 
+  }
+  .nav-item {
+    text-align: center;
+  }
+}
+
+/* redes sociais */
+
+.social-login-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+
+}
+.active-section {
+  font-weight: bold;
+  color: #00ce0e; 
+}
+
+
+.social-login-icons svg {
+  width: 40px;
+}
+
+.social-icon-1,
+.social-icon-2,
+.social-icon-3,
+.social-icon-4 {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialcontainer {
+  height: 50px;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.social-icon-1 {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 0);
+}
+
+.socialcontainer:hover .social-icon-1 {
+  transform: translateY(-50px);
+}
+
+.social-icon-2 {
+  transition-duration: 0.4s;
+  background: linear-gradient(72.44deg,
+      #ff7a00 11.92%,
+      #ff0169 51.56%,
+      #d300c5 85.69%);
+}
+
+.socialcontainer:hover .social-icon-2 {
+  transform: translateY(-50px);
+}
+
+.social-icon-3 {
+  transition-duration: 0.4s;
+  background: #316ff6;
+}
+
+.socialcontainer:hover .social-icon-3 {
+  transform: translateY(-50px);
+}
+
+.social-icon-4 {
+  transition-duration: 0.4s;
+  background: linear-gradient(180deg,
+      rgba(129, 34, 144, 1) 0%,
+      rgba(77, 34, 124, 1) 91%);
+}
+
+.socialcontainer:hover .social-icon-4 {
+  transform: translateY(-50px);
+}
